@@ -1,8 +1,31 @@
 aid: levity
-name: levity
-description: levity is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Levity
+description: Levity (Levity AI GmbH, Berlin, Germany) is a Communication Intelligence platform for the
+  global supply chain, delivering AI automation for freight operations on top of the systems logistics
+  teams already run rather than replacing them. It turns the email and phone traffic that drives day-to-day
+  freight work - quoting, order entry, track-and-trace, document processing and carrier communication,
+  in any language - into structured, automated workflows with humans kept in the loop. The platform pairs
+  inbox analytics (a control tower over millions of emails), an AI automation flow builder, human-in-the-loop
+  review and a feedback loop that turns operator corrections into continuous model improvement. Levity
+  integrates with named TMS platforms including CargoWise, MercuryGate, Descartes, SAP and Oracle, plus
+  custom, in-house and legacy systems. Levity reports 100M+ emails processed and 5M+ working hours saved,
+  serving customers such as ECU Worldwide, Gebrueder Weiss, DPD, LKW Walter and FitzMark across North
+  America and DACH. Levity is backed by Balderton Capital. Levity publishes no public self-serve API,
+  developer portal or SDKs - the product is sold and onboarded through sales - but it does publish an
+  llms.txt, a status page, a trust center and a security program.
 url: https://raw.githubusercontent.com/api-evangelist/levity/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://levityai.pages.dev/images/preview.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Logistics
+- Supply Chain
+- Freight
+- Workflow Automation
+- Email
+- Document Processing
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,40 @@ maintainers:
 common:
 - type: Website
   url: https://levity.ai/
+- type: Blog
+  url: https://levity.ai/en/blog
+- type: Login
+  url: https://next.levity.ai
+- type: Support
+  url: https://levity.ai/en/demo
+- type: FAQ
+  url: https://levity.ai/en/faq
+- type: TermsOfService
+  url: https://levity.ai/en/legal/terms
+- type: PrivacyPolicy
+  url: https://levity.ai/en/legal/privacy-policy
+- type: DataProcessingAgreement
+  url: https://levity.ai/en/legal/dpa
+- type: GitHubOrganization
+  url: https://github.com/LevityAI
+- type: LLMsTxt
+  url: llms/levity-llms.txt
+- type: StatusPage
+  url: https://status.levity.ai/
+- type: Lifecycle
+  url: lifecycle/levity-lifecycle.yml
+- type: Security
+  url: https://levity.ai/en/security
+- type: VulnerabilityDisclosure
+  url: security/levity-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/levity-trust-center.yml
+- type: Compliance
+  url: https://trust.levity.ai/
+- type: DomainSecurity
+  url: security/levity-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
