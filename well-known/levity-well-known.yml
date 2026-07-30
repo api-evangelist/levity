@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probe of levity.ai and next.levity.ai
+hosts:
+- host: https://levity.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://next.levity.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    saved: false
+    note: Returns HTTP 200 but the body is the WorkOS-branded "Sign in" SPA shell (text/html),
+      not an RFC 9116 security.txt. Treated as a catch-all route, not a published document.
+result: none
+notes:
+- Levity publishes no /.well-known/ discovery documents on any probed host.
+- Levity's security contact is published on the human-readable security page
+  (https://levity.ai/en/security), not via security.txt - see
+  security/levity-vulnerability-disclosure.yml.
+- Levity does publish /llms.txt (200) - captured in llms/levity-llms.txt.

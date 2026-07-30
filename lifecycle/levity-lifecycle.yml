@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.levity.ai/
+status_page: https://status.levity.ai/
+status_page_provider: incident.io
+status_page_components:
+- name: App
+  uptime: '99.89%'
+  window: Apr-Jul 2026 (as displayed 2026-07-19)
+- name: Integrations
+  note: component group covering 7 integration components
+- name: Website
+  uptime: '100%'
+  window: Apr-Jul 2026 (as displayed 2026-07-19)
+- name: SMTP
+  uptime: '100%'
+  window: Apr-Jul 2026 (as displayed 2026-07-19)
+status_feeds:
+- type: rss
+  note: incident.io status page advertises RSS/Atom subscription links
+- type: atom
+versioning:
+  scheme: null
+  current: null
+  docs: null
+  note: Levity publishes no public API and no versioning policy.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No published deprecation or sunset policy found on levity.ai (no developer
+    portal, changelog, or API reference exists).
+sla:
+  url: null
+  uptime_target: null
+  note: No public SLA document is linked from the status page or the website; the
+    status page displays observed uptime only. Enterprise SLAs are presumably contractual.
+deprecated_operations: []
+notes:
+- Probed 2026-07-19; https://levity.ai/en/changelog returns 404 and the sitemap lists
+  no changelog, release-notes, or developer pages.
