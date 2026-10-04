@@ -52,7 +52,7 @@ tags:
 - Logistics
 - Supply Chain
 - Freight
-- Workflow-Automation
+- Workflow Automation
 - Email
 - Document Processing
 - Software-as-a-Service
@@ -66,6 +66,7 @@ tags_raw:
 - Email
 - Document Processing
 - SaaS
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
